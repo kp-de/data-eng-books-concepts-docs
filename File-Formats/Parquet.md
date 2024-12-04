@@ -4,7 +4,8 @@
 - Header contains stats like min/ max values. It allows to skip reading blocks of data
 - Footer contain schema details, format version, column metadata etc.
 - Each Rowgroup contains multiple rows of data for all the columns in collocated chunks (ie. columnar storage) along with Column metadata. These chunks are guaranteed to be contiguous in file  
-- Column chunks store a chunk of data for a particular column. 
+- Column chunks store a chunk of data for a particular column.
+- Schema evolution is expensive as all existing files need to be merged  
 
 <img width="573" alt="image" src="https://github.com/user-attachments/assets/92495474-141f-454e-a3b3-f719033d84fb">
 
