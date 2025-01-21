@@ -1,3 +1,6 @@
+- Cumulative datasets are used to maintain history data while processing current data. E.g. building DIM_Users table for facebook would need to keep and manage history of users. Yesterday data is cumulated history which needs to be merged with today's data
+  
+
 - Cumulative datasets are a nice way to store aggregate data which can be used for rollups and further layers of aggregations, without having to scan the detailed data again and again.   
 
 - The way we store cumulative data allows us to read the relevant data and aggs without having to shuffle the data or reading multiple records
