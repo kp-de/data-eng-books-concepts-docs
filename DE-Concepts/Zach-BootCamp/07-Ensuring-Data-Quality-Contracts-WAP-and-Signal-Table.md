@@ -13,3 +13,9 @@ There are two common ways to manage the data quality problem of your pipelines d
 
 <img width="1395" alt="image" src="https://github.com/user-attachments/assets/dd5e74e9-285d-42c9-aa96-4f2a40b5eff2" />
 
+
+**Comparison:**  
+
+<img width="1395" alt="image" src="https://github.com/user-attachments/assets/d690c9f8-0406-4449-9197-b22e25e21368" />  
+
+
