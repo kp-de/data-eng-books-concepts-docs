@@ -12,6 +12,6 @@ For the Uber Eats problem where we need hourly/ daily/ weekly aggregated data to
 <img width="453" alt="image" src="https://github.com/user-attachments/assets/acbcab5e-7b5a-4a5d-90e8-6014ac6e44bf" />
 
 
-We can leverage cumulative datasets to convert this same dataset to be used for larger aggregations. With the following design, we don't need to re-compute the aggregates. Also, with this design, we don't need to shuffle data for larger aggregations, we can just read one row (for a restaurant id) and the single row will contain all the information. This example is for all hours of a day, we can run an agg pipeline to build daily/ weekly/ monthly dataset on top of this dataset as well, with a similar design:  
+We can leverage cumulative datasets to convert this same dataset to be used for larger aggregations. With the following design, we don't need to re-compute the aggregates. Also, with this design, we don't need to shuffle data for larger aggregations, we can just read one row (for a restaurant id) and the single row will contain all the information. This example is for all hours of a day, we can run an agg pipeline to build daily/ weekly/ monthly dataset on top of this dataset as well, with a similar design :  
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/d99201c3-5713-4141-a6a9-f616b80f9015" />
